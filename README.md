@@ -2,7 +2,9 @@
 
 **Cleaner** — это утилита на C++ с использованием Windows API, которая использует встроенные инструменты Windows для очистки и восстановления системы.
 
-![Cleaner interface](https://github.com/user-attachments/assets/2965c6bc-ba14-44b2-b983-4978d026d061)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2965c6bc-ba14-44b2-b983-4978d026d061" alt="Cleaner interface">
+</p>
 
 ## Возможности
 
