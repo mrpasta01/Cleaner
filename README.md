@@ -1,3 +1,24 @@
-# Cleaner
-Cleaner. This cleaner by C++ with windows API using basic windows soft for clean and repair your windows.
-<img width="266" height="433" alt="изображение" src="https://github.com/user-attachments/assets/2965c6bc-ba14-44b2-b983-4978d026d061" />
+# 🧹 Cleaner
+
+**Cleaner** — это утилита на C++ с использованием Windows API, которая использует встроенные инструменты Windows для очистки и восстановления системы.
+
+![Cleaner interface](https://github.com/user-attachments/assets/2965c6bc-ba14-44b2-b983-4978d026d061)
+
+## Возможности
+
+| № | Функция | Описание |
+|---|---------|----------|
+| 1 | 🧹 **Clean Temp** | Очистка временных файлов |
+| 2 | ⚙️ **cleanmgr.exe** | Системная очистка диска |
+| 3 | 🛡️ **sfc /scannow** | Проверка целостности системных файлов |
+| 4 | 🔍 **chkdsk** | Проверка диска на ошибки |
+| 5 | 🛠️ **dism /online /cleanup-image /restorehealth** | Глубокое восстановление системы |
+| 6 | 🔑 **Registry cleaner** | Очистка мусорных записей в реестре |
+| 7 | 📂 **File sorter** | Сортировка файлов по папкам в зависимости от расширения |
+
+## Использование из командной строки
+
+```bash
+cleaner          # Запуск графического интерфейса
+cleaner 1-7      # Выполнить функцию по номеру
+cleaner ?        # Показать справку
